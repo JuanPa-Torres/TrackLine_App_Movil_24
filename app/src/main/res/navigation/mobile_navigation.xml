@@ -8,20 +8,21 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.trackline24.ui.home.HomeFragment"
-        android:label="INICIÓ"
-        tools:layout="@layout/fragment_home" />
+        android:label="INICIO"
+        tools:layout="@layout/fragment_home"
+        app:launchSingleTop="true"/>
 
     <fragment
         android:id="@+id/navigation_route"
-        android:name="com.example.trackline24.ui.route.RouteFragment"
-        android:label="RUTAS"
+        android:name="com.example.trackline24.PlanesEntrenamientoFragment"
+        android:label="PLANES"
         tools:layout="@layout/fragment_route" />
 
     <fragment
         android:id="@+id/navigation_news"
-        android:name="com.example.trackline24.ui.news.NewsFragment"
-        android:label="NOTICIAS"
-        tools:layout="@layout/fragment_news" />
+        android:name="com.example.trackline24.EventosFragment"
+        android:label="EVENTOS"
+        tools:layout="@layout/fragment_eventos" />
 
     <fragment
         android:id="@+id/navigation_profile"

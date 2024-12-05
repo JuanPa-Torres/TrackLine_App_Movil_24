@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormUserInfoActivity"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="¡Bienvenido!"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#000000"
+            android:hint="Nombre(s)"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#CCCCCC" />
+
+        <EditText
+            android:id="@+id/apellidoPaterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nombre"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#000000"
+            android:hint="Apellido Paterno"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#CCCCCC" />
+
+        <EditText
+            android:id="@+id/apellidoMaterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/apellidoPaterno"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#000000"
+            android:hint="Apellido materno"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#CCCCCC" />
+
+        <EditText
+            android:id="@+id/fechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/apellidoMaterno"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#000000"
+            android:hint="dd/mm/yy"
+            android:inputType="date"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#CCCCCC" />
+
+        <Button
+            android:id="@+id/btnInfoUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/fechaNacimiento"
+            android:backgroundTint="#4CAF50"
+            android:text="Continuar"
+            android:textColor="#FFFFFF" />
+
+</RelativeLayout>

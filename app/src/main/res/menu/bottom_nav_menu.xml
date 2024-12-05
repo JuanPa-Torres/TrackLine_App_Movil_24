@@ -4,21 +4,20 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/house"
-        android:title="INICIÓ" />
+        android:title="INICIO" />
 
     <item
         android:id="@+id/navigation_route"
         android:icon="@drawable/route"
-        android:title="RUTAS" />
+        android:title="PLANES" />
 
     <item
         android:id="@+id/navigation_news"
-        android:icon="@drawable/news"
-        android:title="NOTICIAS" />
+        android:icon="@drawable/events"
+        android:title="EVENTOS" />
 
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/profile"
         android:title="PERFILE" />
-
 </menu>
